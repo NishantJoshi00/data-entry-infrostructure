@@ -1,9 +1,12 @@
 # Concept for Reminder App
 ## Web hosted API
 
-
-
-                             +------------+                 ++
+                                   ++
+                                   || <---- New User ✔
+                                   || <---- Delete User ✔
+                                   || ----> Change Password ✔
+                                   ||
+                             +-----++-----+                 ++
                              |    User    |                 || ----> Get all data
     +-----------+    +-------+ Management +-----+           || ----> Get today's task
     |           |    |       |   Server   |     |           || ----> Get task details (based on id)
